@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+    service:
+        build: ./service
+        restart: always
+        ports:
+            - "3000:3000"
+        links:
+            - db        
+
+    db:
+        build: ./mysql
+        restart: always
+        environment:
+            MYSQL_DATABASE: login
+            MYSQL_USER: login
+            MYSQL_PASSWORD: login
+            MYSQL_ROOT_PASSWORD: root_password
