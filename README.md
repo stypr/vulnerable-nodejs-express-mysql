@@ -19,6 +19,6 @@ $ docker-compose up --build -d
 ## Explanation / Demonstration Methods
 
 * (English)
-* (日本語)
+* https://blog.flatt.tech/entry/node_mysql_sqlinjection (日本語)
 * https://harold.kim/blog/2022/02/nodejs-mysql-vulnerability/ (한국어)
 
